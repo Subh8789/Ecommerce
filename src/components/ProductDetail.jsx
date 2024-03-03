@@ -66,7 +66,7 @@ function ProductDetail() {
 
                 <div className="col-lg-6">
                   <h4 className="fw-bold mb-3">{productdetail[0].name}</h4>
-                  <h5 className="fw-bold mb-3">₹ {productdetail[0].price}</h5>
+                  <h5 className="fw-bold mb-3">$ {productdetail[0].price}</h5>
                   <div className="d-flex mb-4">
                     <i className="fa fa-star text-secondary"></i>
                     <i className="fa fa-star text-secondary"></i>
