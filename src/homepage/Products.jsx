@@ -42,7 +42,7 @@ function Products(){
                                                 <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                                     <h4 style={{textTransform:"capitalize"}}>{item.name}</h4>
                                                     <div className="d-flex justify-content-between flex-lg-wrap">
-                                                        <p className="text-dark fs-5 fw-bold mb-0">₹{item.price}</p>
+                                                        <p className="text-dark fs-5 fw-bold mb-0">${item.price}</p>
                                                         <Link to={"/productdetail/"+item.id}  className="btn border border-secondary rounded-pill px-3 text-primary"><i className="fa fa-shopping-bag me-2 text-primary"></i> Detail</Link>
                                                     </div>
                                                 </div>

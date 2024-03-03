@@ -14,7 +14,7 @@ const product = productJson;
 
 
 function ProductDetail() {
-  let buttonvalue = "";
+ // let buttonvalue = "";
  let cartPath = "";
   const { id } = useParams();
   const product = productJson;
