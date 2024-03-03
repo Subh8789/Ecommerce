@@ -1,3 +1,12 @@
+
+# Prerequisite : 
+
+ - "node.js "  should be installed on your machine 
+ - you can download this one by below link:
+ - https://nodejs.org/en
+
+
+
 # Steps for run on local
 
 
