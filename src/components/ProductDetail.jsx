@@ -10,8 +10,6 @@ import { useParams } from "react-router-dom";
 import productJson from "../utils/productJson";
 
 
-const product = productJson;
-
 
 function ProductDetail() {
  // let buttonvalue = "";
@@ -20,7 +18,7 @@ function ProductDetail() {
   const product = productJson;
 
 
-  const productdetail = product.filter((item) => item.id == id);
+  const productdetail = product.filter((item) => item.id === id);
 
  
 
