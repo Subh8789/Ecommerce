@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteItem,increaseQuantity,drecreaseQuantity,resetCart } from "../Redux/cartSlice";
+import { deleteItem,increaseQuantity,drecreaseQuantity } from "../Redux/cartSlice";
 import { useState,useEffect } from "react";
 import { getTotals } from "../Redux/cartSlice";
 
@@ -25,7 +25,7 @@ function OrderPage() {
         } else if (cartTotalAmount > 2000 ) {
           setShippingCharge(20);
         }
-        else if(cartTotalAmount = 0){
+        else if(cartTotalAmount === 0){
             setShippingCharge(0);
         }
       }, [cartTotalAmount]);
